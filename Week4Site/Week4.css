@@ -1,0 +1,17 @@
+﻿h1 {
+    font-family:Britannic;
+    background:center;
+    background-color:goldenrod;
+    text-decoration:underline;
+    text-align:center;
+}
+
+h2{
+    font-family:Algerian;
+    text-decoration-color:powderblue;
+}
+
+body{
+    font-family:'Times New Roman';
+    background-color:burlywood;
+}
