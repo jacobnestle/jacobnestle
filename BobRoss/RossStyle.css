@@ -102,3 +102,10 @@ p{
     position: absolute;
     left: 150px;
 }
+
+#Episodes {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    font-family: Verdana;
+}
