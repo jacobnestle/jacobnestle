@@ -1,0 +1,104 @@
+﻿h1 {
+    text-align:center;
+    border: 10px solid darkslateblue;
+    font-size: 44px;
+    font-family:cursive;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 29px;
+    left: 525px;
+    position: relative;
+    text-decoration-color:palevioletred;
+}
+
+
+body {
+    background-color:darkseagreen;
+}
+
+p{
+   position: relative;
+   left: 525px;
+   font-size: 24px;
+   font-family: Verdana;
+}
+
+
+/*img{
+    position: absolute;
+    top: 153px;
+    left: 5px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid darkslateblue;
+}
+  */
+
+.back {
+    color:yellow;
+    background-color: darkslateblue;
+    position: absolute;
+    bottom: 15px;
+    right: 90px
+    
+}
+
+.next {
+    color:yellow;
+    background-color: darkslateblue;
+    position: absolute;
+    bottom: 15px;
+    right: 30px
+}
+
+#Left {
+    position: absolute;
+    top: 153px;
+    left: 5px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid darkslateblue;
+}
+
+#Right {
+    position: absolute;
+    top: 153px;
+    right: 5px;
+    width: 500px;
+    height: 400px;
+    border: 2px solid darkslateblue;
+}
+
+#Compare1 {
+    position: absolute;
+    top: 153px;
+    left: 5px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid darkslateblue;
+}
+
+#Compare2 {
+    position: absolute;
+    top: 153px;
+    right: 5px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid darkslateblue;
+}
+
+#VS{
+    position:relative;
+    top: 250px;
+    left: 130px;
+    font-family: Verdana;
+    font-size: 18px;
+    
+}
+
+#Showcase{
+    position: absolute;
+    left: 150px;
+}
