@@ -1,0 +1,67 @@
+﻿
+.GridCon {
+    display: grid;
+    grid-template-areas: 'brain brain' 'leftarm rightarm' 'leftleg rightleg';
+    grid-gap: 0px;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    background-color: cadetblue;
+    padding: 0px;
+}
+
+
+.GridItem {
+    grid-area: brain;
+    font-size: 80px;
+    text-align: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+.GridItem1 {
+    grid-area: leftarm;
+    font-size: 50px;
+    text-align: right;
+    background-color: green;
+    padding: 10px;
+}
+
+.GridItem2 {
+    grid-area: rightarm;
+    font-size: 50px;
+    text-align: left;
+    background-color: green;
+    padding: 10px;
+}
+
+.GridItem3 {
+    grid-area: leftleg;
+    font-size: 60px;
+    text-align: right;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.GridItem4 {
+    grid-area: rightleg;
+    font-size: 60px;
+    text-align: left;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.GridItem5 {
+    grid-area: space;
+    font-size: 40px;
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+}
+
+body{
+    background-color:springgreen;
+}
+
+h1{
+    text-align:center;
+}
