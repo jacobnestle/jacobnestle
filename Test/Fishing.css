@@ -1,0 +1,35 @@
+﻿body
+{
+    background-image: url(Pond.jpg);
+    background-repeat: no-repeat;
+    background-color:forestgreen;
+}
+
+#Side{
+    top:50px;
+    right:50px;
+}
+
+#Fish1{
+    bottom:200px;
+    left:400px;
+    position:absolute;
+}
+
+#Fish2 {
+    bottom: 150px;
+    left: 600px;
+    position: absolute;
+}
+
+#Fish3 {
+    bottom: 100px;
+    left: 400px;
+    position: absolute;
+}
+
+#Fish4 {
+    bottom: 200px;
+    left: 400px;
+    position: absolute;
+}

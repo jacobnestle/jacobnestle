@@ -1,0 +1,27 @@
+﻿body {
+    text-align:center;
+    background-color:lightgreen;
+
+}
+    
+    
+    
+ .Ocean
+{
+    color: wheat;
+    background-color: royalblue;
+    position: absolute;
+    bottom: 330px;
+    left: 500px;
+    font-size: 32px;
+    
+}
+
+.Pond {
+    color: wheat;
+    background-color: forestgreen;
+    position: absolute;
+    bottom: 330px;
+    right: 500px;
+    font-size: 32px;
+}
