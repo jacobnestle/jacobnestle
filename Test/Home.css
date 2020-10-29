@@ -3,16 +3,19 @@
     background-color:lightgreen;
 
 }
-    
+h1{
+    font-size:55px;
+    background-color:indianred;
+}
     
     
  .Ocean
 {
     color: wheat;
     background-color: royalblue;
-    position: absolute;
-    bottom: 330px;
-    left: 500px;
+    position: fixed;
+    bottom: 50%;
+    left: 33%;
     font-size: 32px;
     
 }
@@ -20,8 +23,8 @@
 .Pond {
     color: wheat;
     background-color: forestgreen;
-    position: absolute;
-    bottom: 330px;
-    right: 500px;
+    position: fixed;
+    bottom: 50%;
+    right: 33%;
     font-size: 32px;
 }
