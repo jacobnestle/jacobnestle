@@ -13,7 +13,7 @@ h2{
   
 }
 
-
+/*Using a style sheet for each catch screen and basically the same one for the ocean catch screens, just color diffeences*/
 
 .GridCon {
     display: grid;
@@ -45,3 +45,5 @@ h2{
 .GridItem2 {
     grid-area: desc;
 }
+
+/*Used a grid for the layout so it could look uniform with each image and text thrown into it. */

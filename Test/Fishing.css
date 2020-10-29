@@ -9,6 +9,8 @@
     bottom:0%;
     position:absolute;
 }
+
+/*Although it is definedwith %, it does not perform how I thought it would. The image does not fit to percentage of the screen as seen when zooming*/
 #Side{
     top:75px;
     right:25px;
@@ -60,6 +62,9 @@
     left: 69%;
     position: absolute;
 }
+
+/*Fish 5 is the bubbles and is defined using % values. Therefore it stays on the exact spot on the screen instead of  pixels. But the % values used with the pond image doesnt share the same attributes and I do not know why
+*/
 
 .Ocean {
     color: wheat;

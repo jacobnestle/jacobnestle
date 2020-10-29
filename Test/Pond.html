@@ -5,12 +5,15 @@
     <title>The Pond</title>
     <link href="Fishing.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--I retrieved this meta tag from w3 schools and it only kinda fixes the website on mobile. The background image is disolayed oddly. Perhaps if every element was display with relative units, mobile version of the site wouldnt be as messed up-->
 </head>
 <body>
     <div id="Pond">
-        <img src="Pond.jpg"/>
+        <img src="Pond.jpg" />
 
     </div>
+    <!--The pond image is used in a div ID here but originally I had it as a background image of the body. I thought that my changing it to a div element would fix my problem of it moving out of wack when zooming.
+        However, only the problem of having unwanted space under the image was fixed, the image still goes away when zooming.-->
     <div id="Side">
         <h1>Welcome to...</h1>
         <h2>The Pond</h2>
@@ -38,5 +41,12 @@
     <div id="Fish5">
         <a href="https://jacobnestle.github.io/Test/CatchBoot.html"><img src="Bubbles.png" height="35" width="35" /></a>
     </div>
-</body>
-</html>
+
+    <!--I used div IDs in order to define the individual elements on the page such as the individual fish and the textbox on the side. I figured this would give me the bext options for specific locating and positioning.
+        However, I still ran into trouble trying to make the elements stay still when zooming in and out. Using percentage units like % and vw and vh made them move in a different way but still move from the pond.
+        Changing the type of positioning each element had also did not change anything for the better. It is the one big thing that stumped me during this project.-->
+    </body>
+    </html>
+
+
+    
