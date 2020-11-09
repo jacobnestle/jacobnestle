@@ -66,6 +66,10 @@ function myFunction() {
             theText.textContent = "Press the button.";
             return;
         }
+        if (Presses = 10) {
+            location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            return;
+        }
     }
 
 
