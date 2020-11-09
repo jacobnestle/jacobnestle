@@ -34,39 +34,39 @@ function myFunction() {
         return;
     }
  
-        if (Presses = 2) {
+        if (Presses == 2) {
             theText.textContent = "Don't as in do not.";
             return;
         }
-        if (Presses = 3) {
+        if (Presses == 3) {
             theText.textContent = "Seriously?";
             return;
         }
-        if (Presses = 4) {
+        if (Presses == 4) {
             theText.textContent = "Now you're just being a jerk.";
             return;
         }
-        if (Presses = 5) {
+        if (Presses == 5) {
             theText.textContent = "Stop.";
             return;
         }
-        if (Presses = 6) {
+        if (Presses == 6) {
             theText.textContent = "Final warning!";
             return;
         }
-        if (Presses = 7) {
+        if (Presses == 7) {
             theText.textContent = "I'm serious this time.";
             return;
         }
-        if (Presses = 8) {
+        if (Presses == 8) {
             theText.textContent = "Fine.";
             return;
         }
-        if (Presses = 9) {
+        if (Presses == 9) {
             theText.textContent = "Press the button.";
             return;
         }
-        if (Presses = 10) {
+        if (Presses == 10) {
             location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
             return;
         }
