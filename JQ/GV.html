@@ -17,7 +17,27 @@
     </div>
     <div class="Map">
         <div class="VText">
-            July 15, 1997
+            July 15, 1997<br />
+            Miami Beach, FL
+        </div>
+        <div class="MText">
+            May 4, 1997 <br />
+            Chicago, IL
+        </div>
+        <div class="MSText">
+            May 2, 1997 <br />
+            Rush City, MN
+        </div>
+        <div class="RText">
+            July 15, 1997 <br />
+            Pennsville Township, NJ
+        </div>
+        <div class="TText">
+            April 27, 1997 <br />
+            Minneapolis, MN
+        </div>
+        <div class="CText">
+            San Francisco
         </div>
         <img class="Cunanan" src="Cunanan.png" height="40" width="40" />
         <img class="Miglin" src="Miglin.png" height="40" width="40" />
@@ -40,4 +60,38 @@
         $(".VText").hide("fast");
     });
 
+    $(".Miglin").mouseover(function () {
+        $(".MText").show("fast");
+    });
+    $(".Miglin").mouseout(function () {
+        $(".MText").hide("fast");
+    });
+
+    $(".Trail").mouseover(function () {
+        $(".TText").show("fast");
+    });
+    $(".Trail").mouseout(function () {
+        $(".TText").hide("fast");
+    });
+
+    $(".Madson").mouseover(function () {
+        $(".MSText").show("fast");
+    });
+    $(".Madson").mouseout(function () {
+        $(".MSText").hide("fast");
+    });
+
+    $(".Reece").mouseover(function () {
+        $(".RText").show("fast");
+    });
+    $(".Reece").mouseout(function () {
+        $(".RText").hide("fast");
+    });
+
+    $(".Cunanan").mouseover(function () {
+        $(".CText").show("fast");
+    });
+    $(".Cunanan").mouseout(function () {
+        $(".CText").hide("fast");
+    });
 </script>

@@ -42,11 +42,109 @@ body{
 .Map .Versace{
     position:absolute;
     left: 81%;
-    top: 152%
+    top: 140%
 }
 
 .VText{
     display:none;
     position:absolute;
+    left: 90%;
+    top: 140%;
+    background-color:deeppink;
+    border:thick;
+    border-color: black;
+    border-width:3px;
+    border-style:solid;
 
+}
+
+.Map .Cunanan {
+    position: absolute;
+    left: 3%;
+    top: 65%
+}
+
+.CText {
+    display: none;
+    position: absolute;
+    left: -8%;
+    top: 65%;
+    background-color: deeppink;
+    border: thick;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.Map .Miglin {
+    position: absolute;
+    left: 62%;
+    top: 52%;
+
+}
+
+.MText {
+    display: none;
+    position: absolute;
+    left: 67%;
+    top: 52%;
+    background-color: deeppink;
+    border: thick;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.Map .Trail {
+    position: absolute;
+    left: 53%;
+    top: 37%
+}
+
+.TText {
+    display: none;
+    position: absolute;
+    left: 59%;
+    top: 37%;
+    background-color: deeppink;
+    border: thick;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.Map .Madson {
+    position: absolute;
+    left: 53%;
+    top: 25%
+}
+
+.MSText {
+    display: none;
+    position: absolute;
+    left: 59%;
+    top: 25%;
+    background-color: deeppink;
+    border: thick;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.Map .Reece {
+    position: absolute;
+    left: 85%;
+    top: 58%
+}
+
+.RText {
+    display: none;
+    position: absolute;
+    left: 90%;
+    top: 58%;
+    background-color: deeppink;
+    border: thick;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
