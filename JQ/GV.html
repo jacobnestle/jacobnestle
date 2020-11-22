@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="GVStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Assassination of Gianni Versace</title>
+</head>
+<body>
+
+    <h1>The Assassination of Gianni Versace</h1>
+    <div id="Info">
+        In the Spring and Summer of 1997, Andrew Cunanan went on a killing spree which claimed five lives.
+        Among those lives was that of fashion designer Gianni Versace. Hover and click around the map to
+        learn about what occurred during this tragic time.
+    </div>
+    <div class="Map">
+        <div class="VText">
+            July 15, 1997
+        </div>
+        <img class="Cunanan" src="Cunanan.png" height="40" width="40" />
+        <img class="Miglin" src="Miglin.png" height="40" width="40" />
+        <img class="Trail" src="Trail.png" height="40" width="40" />
+        <img class="Madson" src="Madson.png" height="40" width="40" />
+        <img class="Reece" src="Reece.png" height="40" width="40" />
+        <img class="Versace" src="Versace.png" height="40" width="40" />
+        <img class="USA" src="Map.png" width="1000" height="580">
+    </div>
+    
+</body>
+</html>
+
+<script>
+    
+    $(".Versace").mouseover(function (){
+        $(".VText").show("fast");
+    });
+    $(".Versace").mouseout(function () {
+        $(".VText").hide("fast");
+    });
+
+</script>
