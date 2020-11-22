@@ -11,11 +11,10 @@
 
     <h1>The Assassination of Gianni Versace</h1>
     <div id="Info">
-        In the Spring and Summer of 1997, serial killer Andrew Cunanan went on a killing spree which claimed five innnocent lives.
-        Among those lives was that of renowned fashion designer Gianni Versace. Hover and click around the map to
+        In the Spring and Summer of 1997, Andrew Cunanan went on a killing spree which claimed five lives.
+        Among those lives was that of fashion designer Gianni Versace. Hover and click around the map to
         learn about what occurred during this tragic time.
     </div>
-    
     <div class="Map">
         <div class="VText">
             July 15, 1997<br />
@@ -40,13 +39,7 @@
         <div class="CText">
             San Francisco
         </div>
-
-        <div class="C2Text">
-            San Diego
-        </div>
-
         <img class="Cunanan" src="Cunanan.png" height="40" width="40" />
-        <img class="Cunanan2" src="Cunanan2.png" height="40" width="40" />
         <img class="Miglin" src="Miglin.png" height="40" width="40" />
         <img class="Trail" src="Trail.png" height="40" width="40" />
         <img class="Madson" src="Madson.png" height="40" width="40" />
@@ -54,20 +47,7 @@
         <img class="Versace" src="Versace.png" height="40" width="40" />
         <img class="USA" src="Map.png" width="1000" height="580">
     </div>
-    <a id=VLink href="https://jacobnestle.github.io/JQ/Versace.html"></a>
-        <a id=SFLink href="https://jacobnestle.github.io/JQ/SanFrancisco.html"></a>
-            <a id=SDLink href="https://jacobnestle.github.io/JQ/SanDiego.html"></a>
-                <a id=TLink href="https://jacobnestle.github.io/JQ/Trail.html"></a>
-                    <a id=MSLink href="https://jacobnestle.github.io/JQ/Madson.html"></a>
-                        <a id=RLink href="https://jacobnestle.github.io/JQ/Reece.html"></a>
-                            <a id=MLink href="https://jacobnestle.github.io/JQ/Miglin.html"></a>
-
-    <div id="TW">
-        Warning: The following website pertains to the topic of murder and serial killers. Continue and read at your own discretion.
-        <div id="Continue">
-            Continue
-        </div>
-    </div>
+    <a id=myAnchor href="https://stackoverflow.com/questions/9081426/using-jquery-to-programmatically-click-an-a-link">
 
 </body>
 </html>
@@ -81,7 +61,7 @@
         $(".VText").hide("fast");
     });
     $(".Versace").click(function () {
-        $('#VLink')[0].click();
+        $('#myAnchor')[0].click();
     });
 
     $(".Miglin").mouseover(function () {
@@ -91,10 +71,6 @@
         $(".MText").hide("fast");
     });
 
-    $(".Miglin").click(function () {
-        $('#MLink')[0].click();
-    });
-
     $(".Trail").mouseover(function () {
         $(".TText").show("fast");
     });
@@ -102,18 +78,11 @@
         $(".TText").hide("fast");
     });
 
-    $(".Trail").click(function () {
-        $('#TLink')[0].click();
-    });
     $(".Madson").mouseover(function () {
         $(".MSText").show("fast");
     });
     $(".Madson").mouseout(function () {
         $(".MSText").hide("fast");
-    });
-
-    $(".Madson").click(function () {
-        $('#MSLink')[0].click();
     });
 
     $(".Reece").mouseover(function () {
@@ -123,33 +92,10 @@
         $(".RText").hide("fast");
     });
 
-    $(".Reece").click(function () {
-        $('#RLink')[0].click();
-    });
-
     $(".Cunanan").mouseover(function () {
         $(".CText").show("fast");
     });
     $(".Cunanan").mouseout(function () {
         $(".CText").hide("fast");
-    });
-
-    $(".Cunanan").click(function () {
-        $('#SFLink')[0].click();
-    });
-
-    $(".Cunanan2").mouseover(function () {
-        $(".C2Text").show("fast");
-    });
-    $(".Cunanan2").mouseout(function () {
-        $(".C2Text").hide("fast");
-    });
-
-    $(".Cunanan2").click(function () {
-        $('#SDLink')[0].click();
-    });
-
-    $("#Continue").click(function () {
-        $("#TW").hide("fast");
     });
 </script>
