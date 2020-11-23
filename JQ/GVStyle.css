@@ -9,7 +9,7 @@
    border-bottom-width:10px;
    border-top-width:10px;
 }
-@media screen and (min-width: 1000px) {
+
 
     body {
         text-align: center;
@@ -195,5 +195,3 @@
         border-width: 3px;
         border-style: solid;
     }
-
-}
