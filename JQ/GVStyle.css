@@ -72,15 +72,15 @@
 
         .Map .Versace {
             position: absolute;
-            left: 81%;
-            top: 140%
+            left: 82%;
+            top: 88%
         }
 
     .VText {
         display: none;
         position: absolute;
         left: 90%;
-        top: 140%;
+        top: 88%;
         background-color: deeppink;
         border: thick;
         border-color: black;
@@ -91,14 +91,14 @@
     .Map .Cunanan {
         position: absolute;
         left: 3%;
-        top: 65%
+        top: 40%
     }
 
     .CText {
         display: none;
         position: absolute;
         left: -8%;
-        top: 65%;
+        top: 40%;
         background-color: deeppink;
         border: thick;
         border-color: black;
@@ -109,14 +109,14 @@
     .Map .Cunanan2 {
         position: absolute;
         left: 9%;
-        top: 95%
+        top: 60%
     }
 
     .C2Text {
         display: none;
         position: absolute;
         left: 1%;
-        top: 95%;
+        top: 60%;
         background-color: deeppink;
         border: thick;
         border-color: black;
@@ -127,14 +127,14 @@
     .Map .Miglin {
         position: absolute;
         left: 62%;
-        top: 52%;
+        top: 32%;
     }
 
     .MText {
         display: none;
         position: absolute;
         left: 67%;
-        top: 52%;
+        top: 32%;
         background-color: deeppink;
         border: thick;
         border-color: black;
@@ -145,14 +145,14 @@
     .Map .Trail {
         position: absolute;
         left: 53%;
-        top: 37%
+        top: 22%
     }
 
     .TText {
         display: none;
         position: absolute;
         left: 59%;
-        top: 37%;
+        top: 22%;
         background-color: deeppink;
         border: thick;
         border-color: black;
@@ -163,14 +163,14 @@
     .Map .Madson {
         position: absolute;
         left: 53%;
-        top: 25%
+        top: 13%
     }
 
     .MSText {
         display: none;
         position: absolute;
         left: 59%;
-        top: 25%;
+        top: 13%;
         background-color: deeppink;
         border: thick;
         border-color: black;
@@ -181,14 +181,14 @@
     .Map .Reece {
         position: absolute;
         left: 85%;
-        top: 58%
+        top: 35%
     }
 
     .RText {
         display: none;
         position: absolute;
         left: 90%;
-        top: 58%;
+        top: 35%;
         background-color: deeppink;
         border: thick;
         border-color: black;
