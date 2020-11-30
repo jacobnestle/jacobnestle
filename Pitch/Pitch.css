@@ -1,0 +1,20 @@
+﻿body
+{
+    text-align:center;
+    background-color:gainsboro;
+    color:goldenrod;
+}
+h1{
+    text-align:center;
+    background-color:palegoldenrod;
+}
+
+h2{
+    text-align:center;
+    background-color:darkkhaki;
+    color:black;
+}
+
+p{
+    font-size:32px;
+}
