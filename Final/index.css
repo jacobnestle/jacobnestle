@@ -1,0 +1,80 @@
+﻿h1 {
+    background-color:;
+    font-family:Garamond;
+    text-align:center;
+
+}
+body {
+    background-color: #AA8F66;
+}
+
+h2 {
+    background-color: #ED9B40;
+}
+
+h3 {
+    background-color: #FFD151;
+}
+
+.GridCon {
+    display: grid;
+    grid-template-areas: 'main header' 'left right' 'footer footer';
+    grid-gap: 5px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color: #FFEEDB;
+    padding: 20px;
+}
+
+    .GridCon > div {
+        font-size: 26px;
+        text-align: center;
+        background-color: #61C9A8;
+        padding: 20px;
+    }
+
+}
+
+.GridItem {
+    grid-area: header;
+ 
+}
+
+.GridItem1 {
+    grid-area: left;
+}
+
+.GridItem2 {
+    grid-area: main;
+}
+
+.GridItem3 {
+    grid-area: right;
+}
+
+.GridItem4 {
+    grid-area: footer;
+}
+
+#Nutrition {
+    background-color: #AA8F66;
+    text-align: center;
+    font-size: 32px;
+    border: thin;
+    border-color: #FFEEDB;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+#Exercises {
+    background-color: #AA8F66;
+    text-align: center;
+    font-size: 30px;
+    border: thin;
+    border-color: #FFEEDB;
+    border-width: 2px;
+    border-style: solid;
+
+   
+}

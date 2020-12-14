@@ -1,0 +1,437 @@
+﻿
+#Body{
+    width: 503px;
+    height:462px;
+    position:relative;
+    left:30%;
+    right:30%;
+    text-align:center;
+}
+    #Body #Legs {
+        position: absolute;
+        left: 15%;
+        top: 54%;
+        background-color: #AA8F66;
+        border: thick;
+        border-color: #FFEEDB;
+        border-width: 3px;
+        border-style: solid;
+    }
+    #Body #Abs {
+        position: absolute;
+        left: 44%;
+        top: 48%;
+        background-color: #AA8F66;
+        border: thick;
+        border-color: #FFEEDB;
+        border-width: 3px;
+        border-style: solid;
+    }
+    #Body #Arms {
+        position: absolute;
+        left: 70%;
+        top: 15%;
+        background-color: #AA8F66;
+        border: thick;
+        border-color: #FFEEDB;
+        border-width: 3px;
+        border-style: solid;
+    }
+    #Body #Back {
+        position: absolute;
+        left: 60%;
+        top: 35%;
+        background-color: #AA8F66;
+        border: thick;
+        border-color: #FFEEDB;
+        border-width: 3px;
+        border-style: solid;
+    }
+    #Body #Shoulders {
+        position: absolute;
+        left: 27%;
+        top: 8%; 
+        background-color: #AA8F66;
+        border: thick;
+        border-color: #FFEEDB;
+        border-width: 3px;
+        border-style: solid;
+    }
+    #Body #Chest {
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        background-color: #AA8F66;
+        border: thick;
+        border-color: #FFEEDB;
+        border-width: 3px;
+        border-style: solid;
+    }
+
+#ChestT #ChestOut {
+    text-align: right;
+    background-color:firebrick;
+}
+
+#Body #BackT {
+    display: none;
+    position: absolute;
+    background-color: #ED9B40;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+}
+
+#BackT #BackOut {
+    text-align: right;
+    background-color: firebrick;
+}
+#Body #ArmsT {
+    display: none;
+    position: absolute;
+    background-color: #ED9B40;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+}
+
+#ArmsT #ArmsOut {
+    text-align: right;
+    background-color: firebrick;
+}
+#Body #ChestT {
+    display: none;
+    position: absolute;
+    background-color: #ED9B40;
+    text-align:center;
+    left:30%;
+    top:30%;
+}
+#Body #AbsT {
+    display: none;
+    position: absolute;
+    background-color: #ED9B40;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+}
+#AbsT #AbsOut {
+    text-align: right;
+    background-color: firebrick;
+}
+#Body #LegsT {
+    display: none;
+    position: absolute;
+    background-color: #ED9B40;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+}
+#LegsT #LegsOut {
+    text-align: right;
+    background-color: firebrick;
+}
+#Body #ShouldersT {
+    display: none;
+    position: absolute;
+    background-color: #ED9B40;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+}
+
+#ShouldersT #ShouldersOut {
+    text-align: right;
+    background-color: firebrick;
+}
+
+#Workout #FCP2 {
+    display: none;
+    position: relative;
+}
+
+#Workout #ICP2 {
+    display: none;
+    position: relative;
+}
+
+
+h1 {
+    background-color:;
+    font-family: Garamond;
+    text-align: center;
+}
+
+body {
+    background-color: #AA8F66;
+}
+
+h2 {
+    background-color: #ED9B40;
+}
+
+h3 {
+    background-color: #FFD151;
+   
+}
+
+/*The classes below deal with the grid format*/
+
+.GridCon {
+    display: grid;
+    grid-template-areas: 'main header' 'left left' 'footer footer';
+    grid-gap: 5px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color: #FFEEDB;
+    padding: 20px;
+}
+
+    .GridCon > div {
+        font-size: 26px;
+        text-align: center;
+        background-color: #61C9A8;
+        padding: 20px;
+    }
+
+
+
+.GridItem {
+    grid-area: header;
+}
+
+.GridItem1 {
+    grid-area: left;
+}
+
+.GridItem2 {
+    grid-area: main;
+}
+
+.GridItem3 {
+    grid-area: right;
+}
+
+.GridItem4 {
+    grid-area: footer;
+}
+
+#Nutrition{
+    background-color: #AA8F66;
+    text-align: center;
+    font-size: 32px;
+    border: thin;
+    border-color: #FFEEDB;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#Home {
+    background-color: #AA8F66;
+    text-align: center;
+    font-size: 30px;
+    border: thin;
+    border-color: #FFEEDB;
+    border-width: 2px;
+    border-style: solid;
+
+}
+/*The IDs below are the format for the divs within the planner*/
+#PL2 {
+    display: none;
+    position: relative;
+}
+
+#SU2 {
+    display: none;
+    position: relative;
+}
+
+#SLR2 {
+    display: none;
+    position: relative;
+}
+
+#LR2 {
+    display: none;
+    position: relative;
+}
+
+#MC2 {
+    display: none;
+    position: relative;
+}
+
+#CR2 {
+    display: none;
+    position: relative;
+}
+
+#FDF2 {
+    display: none;
+    position: relative;
+}
+
+#CF2 {
+    display: none;
+    position: relative;
+}
+
+#LCR2 {
+    display: none;
+    position: relative;
+}
+
+#PU2 {
+    display: none;
+    position: relative;
+}
+
+#CCP2 {
+    display: none;
+    position: relative;
+}
+
+#DSP1 {
+    display: none;
+    position: relative;
+}
+
+#FR1 {
+    display: none;
+    position: relative;
+}
+
+#LTR1 {
+    display: none;
+    position: relative;
+}
+
+#CBR1 {
+    display: none;
+    position: relative;
+}
+
+#SHRUG1 {
+    display: none;
+    position: relative;
+}
+
+#BSP1 {
+    display: none;
+    position: relative;
+}
+
+#BOR1 {
+    display: none;
+    position: relative;
+}
+
+#SCR1 {
+    display: none;
+    position: relative;
+}
+
+#PUP1 {
+    display: none;
+    position: relative;
+}
+
+#DL1{
+    display: none;
+    position: relative;
+}
+#LPD1 {
+    display: none;
+    position: relative;
+}
+
+#BE1 {
+    display: none;
+    position: relative;
+}
+
+#CFR1 {
+    display: none;
+    position: relative;
+}
+
+#L1 {
+    display: none;
+    position: relative;
+}
+
+#BS1 {
+    display: none;
+    position: relative;
+}
+
+#FDS1 {
+    display: none;
+    position: relative;
+}
+
+#LP1 {
+    display: none;
+    position: relative;
+}
+
+#QR1 {
+    display: none;
+    position: relative;
+}
+
+#CP1 {
+    display: none;
+    position: relative;
+}
+
+#LC1 {
+    display: none;
+    position: relative;
+}
+
+#OE1 {
+    display: none;
+    position: relative;
+}
+
+#S1 {
+    display: none;
+    position: relative;
+}
+
+#TPD1 {
+    display: none;
+    position: relative;
+}
+
+#TD1 {
+    display: none;
+    position: relative;
+}
+
+#BPC1 {
+    display: none;
+    position: relative;
+}
+
+#HC1 {
+    display: none;
+    position: relative;
+}
+
+#PC1 {
+    display: none;
+    position: relative;
+}
+
+#BEZ1 {
+    display: none;
+    position: relative;
+}
+
+#ZC1 {
+    display: none;
+    position: relative;
+}

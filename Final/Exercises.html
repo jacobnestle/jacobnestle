@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Workout Creation</title>
+    <script src="jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="Weird.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!--This is the largest part of the site. The tool allows those to see what exercises work out which muscles and add them to a workout planner at the bottom. My original goal was to have it showcase
+        a video of the workout too, atleast in a link, but time constraint caused me to leave it out.-->
+    <div class="GridCon">
+        <div class="GridItem">
+            <h1><u>Nestle Fitness Incorporated</u></h1>
+            <a href="https://jacobnestle.github.io/Final/index.html" target="_blank"><div id="Home">
+                Home
+            </div></a>
+            <a href="https://jacobnestle.github.io/Final/Nutrition.html"><div id="Nutrition">
+                Nutrition
+            </div></a>
+        </div>
+        <div class="GridItem1">
+            <h3>Click on a muscle group to discover exercises. Doubleclick on an exercise to save it to your workout planner.</h3>
+            <div id="Body">
+                <div id="Flex">
+                    <img src="Flex.png" />
+                </div>
+                <div id="Abs">
+                    Abs
+                </div>
+                <div id="Arms">
+                    Arms
+                </div>
+                <div id="Back">
+                    Back
+                </div>
+                <div id="Shoulders">
+                    Shoulders
+                </div>
+                <div id="Legs">
+                    Legs
+                </div>
+                <div id="Chest">
+                    Chest
+                </div>
+                <div id="AbsT">
+                    <div id="SU1">
+                        Sit-Ups<br />
+                    </div>
+                    <div id="CR1">
+                        Crunches<br />
+                    </div>
+                    <div id="PL1">
+                        Planks<br />
+                    </div>
+                    <div id="MC1">
+                        Mountain Climbers<br />
+                    </div>
+                    <div id="SLR1">
+                        Static Leg Raises<br />
+                    </div>
+                    <div id="LR1">
+                        Leg Raises<br />
+                    </div>
+                    <div id="AbsOut">
+                        X
+                    </div>
+                </div>
+                <div id="ArmsT">
+                    <div id="OE">Overhead Extensions<br /></div>
+                    <div id="S">Skullcrushers<br /></div>
+                    <div id="TPD">Tricep Pulldowns<br /></div>
+                    <div id="TD">Tricep Dips<br /></div>
+                    <div id="BPC">Bicep Curls<br /></div>
+                    <div id="HC">Hammer Curls<br /></div>
+                    <div id="PC">Preacher Curls<br /></div>
+                    <div id="BEZ">Barbell/E-Z Curls<br /></div>
+                    <div id="ZC">Zottman Curls<br /></div>
+                  
+                    <div id="ArmsOut">
+                        X
+                    </div>
+                </div>
+                <div id="BackT">
+                    <div id="BOR">Bent-Over Rows<br /></div>
+                    <div id="SCR">Seated Cable Rows<br /></div>
+                    <div id="PUP">Pull Ups<br /></div>
+                    <div id="DL">Deadlift<br /></div>
+                    <div id="LPD">Lat Pulldown<br /></div>
+                    <div id="BE">Back Extension<br /></div>
+                   
+                    <div id="BackOut">
+                        X
+                    </div>
+                </div>
+                <div id="ShouldersT">
+                    <div id="DSP">
+                        Dumbbell Shoulder Press<br />
+                    </div>
+                    <div id="FR">
+                        Front Raise<br />
+                    </div>
+                    <div id="LTR">
+                        Lateral Raise<br />
+                    </div>
+                    <div id="CBR">
+                        Cable Raise<br />
+                    </div>
+                    <div id="SHRUG">
+                        Shrugs<br />
+                    </div>
+                    <div id="BSP">
+                        Barbell Push Press<br />
+                    </div>
+                   
+                    <div id="ShouldersOut">
+                        X
+                    </div>
+                </div>
+                <div id="LegsT">
+                    <div id="CFR">Calf Raises<br /></div>
+                    <div id="L">Lunges<br /></div>
+                    <div id="BS">Back Squat<br /></div>
+                    <div id="FDS">Front Dumbbell Squat<br /></div>
+                    <div id="LP">Leg Press<br /></div>
+                    <div id="QR">Quad Raises<br /></div>
+                    <div id="CP">Calf Press<br /></div>
+                    <div id="LC">Leg Curl<br /></div>
+                    
+                    <div id="LegsOut">
+                        X
+                    </div>
+                </div>
+                <div id="ChestT">
+                    <div id="FCP1">
+                        Flat Chest Press<br />
+                    </div>
+                    <div id="ICP1">
+                        Incline Chest Press<br />
+                    </div>
+                    <div id="CF1">
+                        Cable Flys<br />
+                    </div>
+                    <div id="FDF1">
+                        Flat Dumbbell Flys<br />
+                    </div> <div id="CCP1">
+                        Center Chest Press<br />
+                    </div> <div id="LCR1">
+                        Low Chest Raises<br />
+                    </div> <div id="PU1">
+                        Push-Ups<br />
+                    </div>
+                 
+                    <div id="ChestOut">
+                        X
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="GridItem2">
+            <img src="Logo.png" />
+        </div>
+
+        <div class="GridItem4">
+            <h3>Workout Planner</h3>
+            <div id="Workout">
+                <div id="FCP2">
+                    Flat Chest Press
+                </div>
+                <div id="ICP2">
+                    Incline Chest Press
+                </div>
+                <div id="CF2">
+                    Cable Flys<br />
+                </div>
+                <div id="FDF2">
+                    Flat Dumbbell Flys<br />
+                </div> <div id="CCP2">
+                    Center Chest Press<br />
+                </div> <div id="LCR2">
+                    Low Chest Raises<br />
+                </div> <div id="PU2">
+                    Push-Ups<br />
+                </div>
+                <div id="SU2">
+                    Sit-Ups<br />
+                </div>
+                <div id="CR2">
+                    Crunches<br />
+                </div>
+                <div id="PL2">
+                    Planks<br />
+                </div>
+                <div id="MC2">
+                    Mountain Climbers<br />
+                </div>
+                <div id="SLR2">
+                    Static Leg Raises<br />
+                </div>
+                <div id="LR2">
+                    Leg Raises<br />
+                </div>
+                <div id="DSP1">
+                    Dumbbell Shoulder Press<br />
+                </div>
+                <div id="FR1">
+                    Front Raise<br />
+                </div>
+                <div id="LTR1">
+                    Lateral Raise<br />
+                </div>
+                <div id="CBR1">
+                    Cable Raise<br />
+                </div>
+                <div id="SHRUG1">
+                    Shrugs<br />
+                </div>
+                <div id="BSP1">
+                    Barbell Push Press<br />
+                </div>
+                <div id="BOR1">Bent-Over Rows<br /></div>
+                <div id="SCR1">Seated Cable Rows<br /></div>
+                <div id="PUP1">Pull Ups<br /></div>
+                <div id="DL1">Deadlift<br /></div>
+                <div id="LPD1">Lat Pulldown<br /></div>
+                <div id="BE1">Back Extension<br /></div>
+                <div id="CFR1">Calf Raises<br /></div>
+                <div id="L1">Lunges<br /></div>
+                <div id="BS1">Back Squat<br /></div>
+                <div id="FDS1">Front Dumbbell Squat<br /></div>
+                <div id="LP1">Leg Press<br /></div>
+                <div id="QR1">Quad Raises<br /></div>
+                <div id="CP1">Calf Press<br /></div>
+                <div id="LC1">Leg Curl<br /></div>
+                <div id="OE1">Overhead Extensions<br /></div>
+                <div id="S1">Skullcrushers<br /></div>
+                <div id="TPD1">Tricep Pulldowns<br /></div>
+                <div id="TD1">Tricep Dips<br /></div>
+                <div id="BPC1">Bicep Curls<br /></div>
+                <div id="HC1">Hammer Curls<br /></div>
+                <div id="PC1">Preacher Curls<br /></div>
+                <div id="BEZ1">Barbell/E-Z Curls<br /></div>
+                <div id="ZC1">Zottman Curls<br /></div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<!--The script below was in a sepearate JS file but it stopped working part way through and did not want to work again, the same problem I encountered last project. The Scripts deal with clicking on the divs and double clicking them to
+    add them to the planner-->
+<script>
+
+    $("#Chest").click(function (){
+        $("#ChestT").show("fast");
+    });
+    $("#ChestOut").click(function () {
+        $("#ChestT").hide("fast");
+    });
+
+    $("#Abs").click(function () {
+        $("#AbsT").show("fast");
+    });
+    $("#AbsOut").click(function () {
+        $("#AbsT").hide("fast");
+    });
+
+    $("#Legs").click(function () {
+        $("#LegsT").show("fast");
+    });
+    $("#LegsOut").click(function () {
+        $("#LegsT").hide("fast");
+    });
+
+    $("#Back").click(function () {
+        $("#BackT").show("fast");
+    });
+    $("#BackOut").click(function () {
+        $("#BackT").hide("fast");
+    });
+
+    $("#Shoulders").click(function () {
+        $("#ShouldersT").show("fast");
+    });
+    $("#ShouldersOut").click(function () {
+        $("#ShouldersT").hide("fast");
+    });
+
+    $("#Arms").click(function () {
+        $("#ArmsT").show("fast");
+    });
+    $("#ArmsOut").click(function () {
+        $("#ArmsT").hide("fast");
+    });
+
+    $("#FCP1").dblclick(function () {
+        $("#FCP2").show("fast");
+    });
+
+    $("#ICP1").dblclick(function () {
+        $("#ICP2").show("fast");
+    });
+
+    $("#PU1").dblclick(function () {
+        $("#PU2").show("fast");
+    });
+
+    $("#CCP1").dblclick(function () {
+        $("#CCP2").show("fast");
+    });
+
+    $("#CF1").dblclick(function () {
+        $("#CF2").show("fast");
+    });
+
+    $("#LCR1").dblclick(function () {
+        $("#LCR2").show("fast");
+    });
+
+    $("#FDF1").dblclick(function () {
+        $("#FDF2").show("fast");
+    });
+
+    $("#SU1").dblclick(function () {
+        $("#SU2").show("fast");
+    });
+
+    $("#CR1").dblclick(function () {
+        $("#CR2").show("fast");
+    });
+
+    $("#PL1").dblclick(function () {
+        $("#PL2").show("fast");
+    });
+
+    $("#MC1").dblclick(function () {
+        $("#MC2").show("fast");
+    });
+
+    $("#LR1").dblclick(function () {
+        $("#LR2").show("fast");
+    });
+
+    $("#SLR1").dblclick(function () {
+        $("#SLR2").show("fast");
+    });
+
+    $("#DSP").dblclick(function () {
+        $("#DSP1").show("fast");
+    });
+
+    $("#FR").dblclick(function () {
+        $("#FR1").show("fast");
+    });
+
+    $("#LTR").dblclick(function () {
+        $("#LTR1").show("fast");
+    });
+
+    $("#CBR").dblclick(function () {
+        $("#CBR1").show("fast");
+    });
+
+    $("#SHRUG").dblclick(function () {
+        $("#SHRUG1").show("fast");
+    });
+
+    $("#BSP").dblclick(function () {
+        $("#BSP1").show("fast");
+    });
+
+    $("#BOR").dblclick(function () {
+        $("#BOR1").show("fast");
+    });
+
+    $("#SCR").dblclick(function () {
+        $("#SCR1").show("fast");
+    });
+
+    $("#PUP").dblclick(function () {
+        $("#PUP1").show("fast");
+    });
+
+    $("#DL").dblclick(function () {
+        $("#DL1").show("fast");
+    });
+
+    $("#LPD").dblclick(function () {
+        $("#LPD1").show("fast");
+    });
+
+    $("#BE").dblclick(function () {
+        $("#BE1").show("fast");
+    });
+
+    $("#CFR").dblclick(function () {
+        $("#CFR1").show("fast");
+    });
+
+    $("#L").dblclick(function () {
+        $("#L1").show("fast");
+    });
+
+    $("#BS").dblclick(function () {
+        $("#BS1").show("fast");
+    });
+
+    $("#FDS").dblclick(function () {
+        $("#FDS1").show("fast");
+    });
+
+    $("#LP").dblclick(function () {
+        $("#LP1").show("fast");
+    });
+
+    $("#QR").dblclick(function () {
+        $("#QR1").show("fast");
+    });
+
+    $("#CP").dblclick(function () {
+        $("#CP1").show("fast");
+    });
+
+    $("#LC").dblclick(function () {
+        $("#LC1").show("fast");
+    });
+
+    $("#OE").dblclick(function () {
+        $("#OE1").show("fast");
+    });
+
+    $("#S").dblclick(function () {
+        $("#S1").show("fast");
+    });
+
+    $("#TPD").dblclick(function () {
+        $("#TPD1").show("fast");
+    });
+
+    $("#TD").dblclick(function () {
+        $("#TD1").show("fast");
+    });
+
+    $("#BPC").dblclick(function () {
+        $("#BPC1").show("fast");
+    });
+
+    $("#HC").dblclick(function () {
+        $("#HC1").show("fast");
+    });
+
+    $("#PC").dblclick(function () {
+        $("#PC1").show("fast");
+    });
+
+    $("#BEZ").dblclick(function () {
+        $("#BEZ1").show("fast");
+    });
+
+    $("#ZC").dblclick(function () {
+        $("#ZC1").show("fast");
+    });
+</script>
